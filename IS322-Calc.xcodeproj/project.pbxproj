@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A069A48F2D84232500743634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A098E4A12D71DA7F0064EEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A098E4A82D71DA7F0064EEA4;
+			remoteInfo = "IS322-Calc";
+		};
+		A098E4BA2D71DA810064EEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A098E4A12D71DA7F0064EEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A098E4A82D71DA7F0064EEA4;
+			remoteInfo = "IS322-Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A069A48B2D84232500743634 /* IS322_CalcAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IS322_CalcAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A098E4A92D71DA7F0064EEA4 /* IS322-Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IS322-Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A098E4B92D71DA810064EEA4 /* IS322-CalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IS322-CalcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A098E4DB2D71E1650064EEA4 /* Exceptions for "IS322-Calc" folder in "IS322-CalcTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				IS322_CalcApp.swift,
+			);
+			target = A098E4B82D71DA810064EEA4 /* IS322-CalcTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A069A48C2D84232500743634 /* IS322_CalcAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IS322_CalcAppTests;
+			sourceTree = "<group>";
+		};
+		A098E4AB2D71DA7F0064EEA4 /* IS322-Calc */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A098E4DB2D71E1650064EEA4 /* Exceptions for "IS322-Calc" folder in "IS322-CalcTests" target */,
+			);
+			path = "IS322-Calc";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A069A4882D84232500743634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098E4A62D71DA7F0064EEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098E4B62D71DA810064EEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A098E4A02D71DA7F0064EEA4 = {
+			isa = PBXGroup;
+			children = (
+				A098E4AB2D71DA7F0064EEA4 /* IS322-Calc */,
+				A069A48C2D84232500743634 /* IS322_CalcAppTests */,
+				A098E4AA2D71DA7F0064EEA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A098E4AA2D71DA7F0064EEA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A098E4A92D71DA7F0064EEA4 /* IS322-Calc.app */,
+				A098E4B92D71DA810064EEA4 /* IS322-CalcTests.xctest */,
+				A069A48B2D84232500743634 /* IS322_CalcAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A069A48A2D84232500743634 /* IS322_CalcAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A069A4912D84232500743634 /* Build configuration list for PBXNativeTarget "IS322_CalcAppTests" */;
+			buildPhases = (
+				A069A4872D84232500743634 /* Sources */,
+				A069A4882D84232500743634 /* Frameworks */,
+				A069A4892D84232500743634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A069A4902D84232500743634 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A069A48C2D84232500743634 /* IS322_CalcAppTests */,
+			);
+			name = IS322_CalcAppTests;
+			packageProductDependencies = (
+			);
+			productName = IS322_CalcAppTests;
+			productReference = A069A48B2D84232500743634 /* IS322_CalcAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A098E4A82D71DA7F0064EEA4 /* IS322-Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A098E4CD2D71DA810064EEA4 /* Build configuration list for PBXNativeTarget "IS322-Calc" */;
+			buildPhases = (
+				A098E4A52D71DA7F0064EEA4 /* Sources */,
+				A098E4A62D71DA7F0064EEA4 /* Frameworks */,
+				A098E4A72D71DA7F0064EEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A098E4AB2D71DA7F0064EEA4 /* IS322-Calc */,
+			);
+			name = "IS322-Calc";
+			packageProductDependencies = (
+			);
+			productName = "IS322-Calc";
+			productReference = A098E4A92D71DA7F0064EEA4 /* IS322-Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A098E4B82D71DA810064EEA4 /* IS322-CalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A098E4D02D71DA810064EEA4 /* Build configuration list for PBXNativeTarget "IS322-CalcTests" */;
+			buildPhases = (
+				A098E4B52D71DA810064EEA4 /* Sources */,
+				A098E4B62D71DA810064EEA4 /* Frameworks */,
+				A098E4B72D71DA810064EEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A098E4BB2D71DA810064EEA4 /* PBXTargetDependency */,
+			);
+			name = "IS322-CalcTests";
+			packageProductDependencies = (
+			);
+			productName = "IS322-CalcTests";
+			productReference = A098E4B92D71DA810064EEA4 /* IS322-CalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A098E4A12D71DA7F0064EEA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					A069A48A2D84232500743634 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A098E4A82D71DA7F0064EEA4;
+					};
+					A098E4A82D71DA7F0064EEA4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					A098E4B82D71DA810064EEA4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = A098E4A82D71DA7F0064EEA4;
+					};
+				};
+			};
+			buildConfigurationList = A098E4A42D71DA7F0064EEA4 /* Build configuration list for PBXProject "IS322-Calc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A098E4A02D71DA7F0064EEA4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A098E4AA2D71DA7F0064EEA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A098E4A82D71DA7F0064EEA4 /* IS322-Calc */,
+				A098E4B82D71DA810064EEA4 /* IS322-CalcTests */,
+				A069A48A2D84232500743634 /* IS322_CalcAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A069A4892D84232500743634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098E4A72D71DA7F0064EEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098E4B72D71DA810064EEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A069A4872D84232500743634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098E4A52D71DA7F0064EEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A098E4B52D71DA810064EEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A069A4902D84232500743634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A098E4A82D71DA7F0064EEA4 /* IS322-Calc */;
+			targetProxy = A069A48F2D84232500743634 /* PBXContainerItemProxy */;
+		};
+		A098E4BB2D71DA810064EEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A098E4A82D71DA7F0064EEA4 /* IS322-Calc */;
+			targetProxy = A098E4BA2D71DA810064EEA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A069A4922D84232500743634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGT93MP696;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.IS322-CalcAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IS322-Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IS322-Calc";
+			};
+			name = Debug;
+		};
+		A069A4932D84232500743634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGT93MP696;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.IS322-CalcAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IS322-Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IS322-Calc";
+			};
+			name = Release;
+		};
+		A098E4CB2D71DA810064EEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A098E4CC2D71DA810064EEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A098E4CE2D71DA810064EEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IS322-Calc/Preview Content\"";
+				DEVELOPMENT_TEAM = NGT93MP696;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.IS322-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A098E4CF2D71DA810064EEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IS322-Calc/Preview Content\"";
+				DEVELOPMENT_TEAM = NGT93MP696;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.IS322-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A098E4D12D71DA810064EEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGT93MP696;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.IS322-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IS322-Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IS322-Calc";
+			};
+			name = Debug;
+		};
+		A098E4D22D71DA810064EEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NGT93MP696;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Test.IS322-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IS322-Calc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IS322-Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A069A4912D84232500743634 /* Build configuration list for PBXNativeTarget "IS322_CalcAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A069A4922D84232500743634 /* Debug */,
+				A069A4932D84232500743634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098E4A42D71DA7F0064EEA4 /* Build configuration list for PBXProject "IS322-Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098E4CB2D71DA810064EEA4 /* Debug */,
+				A098E4CC2D71DA810064EEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098E4CD2D71DA810064EEA4 /* Build configuration list for PBXNativeTarget "IS322-Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098E4CE2D71DA810064EEA4 /* Debug */,
+				A098E4CF2D71DA810064EEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A098E4D02D71DA810064EEA4 /* Build configuration list for PBXNativeTarget "IS322-CalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A098E4D12D71DA810064EEA4 /* Debug */,
+				A098E4D22D71DA810064EEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A098E4A12D71DA7F0064EEA4 /* Project object */;
+}
